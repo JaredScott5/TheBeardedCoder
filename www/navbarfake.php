@@ -13,7 +13,6 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav mx-auto" id="navbarContents">
-          <!--TODO create  a js that makes a class 'active' pased on what page you're on for the lis-->
             <li class="nav-item px-lg-4" id="home">
                 <a class="nav-link text-uppercase text-expanded" href="#">Home <span class="sr-only">(current)</span></a>
             </li>

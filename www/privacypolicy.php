@@ -23,7 +23,6 @@
 
 <body>
   <!--TODO the images should be 900x300-->
-  <!--TODO Replace navbar hard code with an include file to trim it down like with testbed-->
   <?php
 include_once('navbar.php');
 ?>

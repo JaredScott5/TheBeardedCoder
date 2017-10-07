@@ -29,7 +29,6 @@
   ?>
 
   <!--TODO the images should be 900x300-->
-  <!--TODO Replace navbar hard code with an include file to trim it down like with testbed-->
 
     <div class="container">
 

@@ -1,3 +1,4 @@
+<!--TODO social media icons-->
 <footer class="bg-faded text-center py-5">
 
   <div class="container">
@@ -31,7 +32,7 @@
       </div>
     </div>
     <hr>
-    
+
     <div class="row" id="thirdFooterLayer">
       <div class="col-4" id="standard">
         Follow Us on Social Media:

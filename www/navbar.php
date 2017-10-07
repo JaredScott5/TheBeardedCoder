@@ -1,7 +1,7 @@
 <div class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block">
   The Bearded Coder, Inc.
 </div>
-<!--<div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block">
+<!--TODO <div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block">
   3308 Pilgrim Rest Church Road | Marianna, FL 32448 | chiefBeard@thebeardedcoder.com
 </div>
 -->
@@ -13,7 +13,6 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav mx-auto" id="navbarContents">
-          <!--TODO create  a js that makes a class 'active' pased on what page you're on for the lis-->
             <li class="nav-item px-lg-4" id="home">
                 <a class="nav-link text-uppercase text-expanded" href="index.php">Home <span class="sr-only">(current)</span></a>
             </li>

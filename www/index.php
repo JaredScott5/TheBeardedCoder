@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- TODO Replace navbar hard code with an include file to trim it down like with testbed
-TODO do the same for the footer and add social media icons
--->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -25,7 +22,6 @@ TODO do the same for the footer and add social media icons
 
 <body>
   <!--TODO the images should be 900x300-->
-  <!--TODO Replace navbar hard code with an include file to trim it down like with testbed-->
 <?php
 include_once('navbar.php');
 ?>
@@ -103,7 +99,6 @@ include_once('navbar.php');
               Create <strong>a website worth visitng</strong>
             </h2>
             <hr class="divider">
-            <img class="img-fluid float-left mr-4 d-none d-lg-block" src="img/intro-pic.jpg" alt="">
             <p align="left">
               If you’ve heard it once, you’ve heard it a thousand times.
               “Every business needs a website.” Well that certainly is true, but
@@ -141,7 +136,7 @@ include_once('navbar.php');
                   <div class="col-md-4">
                     <h4 class="service-heading"><strong>Web Design</strong></h4>
                     From web page layout to the actual content that's featured, we'll sit down with you and hammer out all the details and features that best meet your vision.
-                    </div> 
+                    </div>
                   <div class="col-md-4">
                     <h4 class="service-heading"><strong>Responsive Layout</strong></h4>
                     To compliment your content, we'll implement features that breathe life into website be it carousel of pictures or integrated booking and payments.

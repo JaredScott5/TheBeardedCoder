@@ -28,7 +28,6 @@
 ?>
 
 <!--TODO make the images down below all 640x420-->
-<!--Replace navbar hard code with an include file to trim it down like with testbed-->
     <div class="container">
 
         <div class="bg-faded p-4 my-4">

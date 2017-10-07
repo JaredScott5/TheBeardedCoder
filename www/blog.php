@@ -20,7 +20,6 @@
     <link href="css/business-casual.css" rel="stylesheet">
 </head>
 <!-- TODO make the images 840x400 -->
-<!-- TODO Replace navbar hard code with an include file to trim it down like with testbed-->
 
 <body>
 <?php
@@ -36,9 +35,9 @@ include_once('navbar.php');
             <div class="col-md-12">
 
                 <!-- Blog Post -->
-                
 
-                <!-- Blog Post 
+
+                <!-- Blog Post
                 <div class="card mb-4">
                     <img class="card-img-top" src="img/blog/office.jpg" alt="Card image cap">
                     <div class="card-body">
@@ -58,7 +57,7 @@ include_once('navbar.php');
                     <img class="card-img-top" src="img/blog/office-space.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h2 class="card-title">We Are Open For Business</h2>
-                        <p class="card-text">My goodness, here we are, here we are! After what feels like a lifetime, The Bearded Coder, Inc. is 
+                        <p class="card-text">My goodness, here we are, here we are! After what feels like a lifetime, The Bearded Coder, Inc. is
                         officially open! First of all, thank you for taking time out of your day to visit our humble company blog. It does our hearts good to know that out of all of the many articles, videos, and blog posts on the Internet that you decided to give us a read.</p>
                         <a href="blogPost.php" class="btn btn-primary">Read More &rarr;</a>
                     </div>
@@ -75,7 +74,7 @@ include_once('navbar.php');
 
             </div>
 
-            
+
 
         </div>
         <!-- /.row -->
