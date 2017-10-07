@@ -19,7 +19,6 @@
     <!-- Custom styles for this template -->
     <link href="css/business-casual.css" rel="stylesheet">
 </head>
-<!-- TODO make the images 840x400 -->
 
 <body>
 <?php
