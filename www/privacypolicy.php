@@ -22,7 +22,6 @@
 </head>
 
 <body>
-  <!--TODO the images should be 900x300-->
   <?php
 include_once('navbar.php');
 ?>
