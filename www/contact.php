@@ -22,13 +22,11 @@
     <script src='https://www.google.com/recaptcha/api.js'></script>
 
 </head>
-<!--TODO 640x360 is what the image replacing the map should be-->
+
 <body>
   <?php
   include_once('navbar.php');
   ?>
-
-  <!--TODO the images should be 900x300-->
 
     <div class="container">
 

@@ -21,7 +21,6 @@
 </head>
 
 <body>
-  <!--TODO the images should be 900x300-->
 <?php
 include_once('navbar.php');
 ?>
@@ -50,7 +49,7 @@ include_once('navbar.php');
                     </div>
                     <div class="carousel-item">
                         <a href="">
-                          <img class="d-block img-fluid w-100" src="img/carasole/slide-2-2.jpg" alt="">
+                          <img class="d-block img-fluid w-100" src="img/carasole/slide-4.jpg" alt="">
                         </a>
                         <div class="carousel-caption d-none d-md-block">
                             <h3 class="text-shadow">Always Learning</h3>
