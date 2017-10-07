@@ -33,7 +33,6 @@ Comment them out until you have created the javascript needed
 </head>
 
 <!--TODO the images should be 900x300-->
-<!--TODO Replace navbar hard code with an include file to trim it down like with testbed-->
 
 <body>
   <?php
@@ -125,7 +124,7 @@ Comment them out until you have created the javascript needed
                           <cite title="Source Title">Isaac D'Israeli</cite>
                       </footer>
                   </blockquote>
-                  
+
                 <p>Super power number 3: we can grow a mean beard! Just joking!
                   Well, I mean we actually do have awesome beards. We wouldn’t
                   be The Bearded Coder if we couldn’t actually grow a beard, but
