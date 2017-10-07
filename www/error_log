@@ -1,0 +1,46 @@
+[16-Sep-2017 20:56:33 UTC] PHP Notice:  Use of undefined constant _POST - assumed '_POST' in /home/thebeardedone/public_html/contact.php on line 35
+[16-Sep-2017 20:56:33 UTC] PHP Warning:  Illegal string offset 'username' in /home/thebeardedone/public_html/contact.php on line 35
+[16-Sep-2017 20:56:40 UTC] PHP Notice:  Use of undefined constant _POST - assumed '_POST' in /home/thebeardedone/public_html/contact.php on line 35
+[16-Sep-2017 20:56:40 UTC] PHP Warning:  Illegal string offset 'username' in /home/thebeardedone/public_html/contact.php on line 35
+[16-Sep-2017 20:59:15 UTC] PHP Notice:  Undefined index: username in /home/thebeardedone/public_html/contact.php on line 35
+[16-Sep-2017 20:59:22 UTC] PHP Notice:  Undefined index: username in /home/thebeardedone/public_html/contact.php on line 35
+[16-Sep-2017 21:57:26 UTC] PHP Notice:  Undefined index: username in /home/thebeardedone/public_html/contact.php on line 35
+[16-Sep-2017 23:41:34 UTC] PHP Notice:  Undefined index: username in /home/thebeardedone/public_html/contact.php on line 35
+[18-Sep-2017 00:20:31 UTC] PHP Notice:  Undefined index: username in /home/thebeardedone/public_html/contact.php on line 35
+[20-Sep-2017 17:51:07 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/thebeardedone/public_html/contact.php on line 111
+[20-Sep-2017 17:51:44 UTC] PHP Fatal error:  Uncaught Error: Class 'ReCaptcha' not found in /home/thebeardedone/public_html/contact.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/thebeardedone/public_html/contact.php on line 36
+[20-Sep-2017 17:52:10 UTC] PHP Fatal error:  Uncaught Error: Class 'ReCaptcha' not found in /home/thebeardedone/public_html/contact.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/thebeardedone/public_html/contact.php on line 36
+[20-Sep-2017 17:52:12 UTC] PHP Fatal error:  Uncaught Error: Class 'ReCaptcha' not found in /home/thebeardedone/public_html/contact.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/thebeardedone/public_html/contact.php on line 36
+[20-Sep-2017 17:52:13 UTC] PHP Fatal error:  Uncaught Error: Class 'ReCaptcha' not found in /home/thebeardedone/public_html/contact.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/thebeardedone/public_html/contact.php on line 36
+[20-Sep-2017 17:53:31 UTC] PHP Fatal error:  Uncaught Error: Class 'ReCaptcha' not found in /home/thebeardedone/public_html/contact.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/thebeardedone/public_html/contact.php on line 37
+[20-Sep-2017 17:53:32 UTC] PHP Fatal error:  Uncaught Error: Class 'ReCaptcha' not found in /home/thebeardedone/public_html/contact.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/thebeardedone/public_html/contact.php on line 37
+[20-Sep-2017 17:54:18 UTC] PHP Fatal error:  Uncaught Error: Class 'ReCaptcha' not found in /home/thebeardedone/public_html/contact.php:84
+Stack trace:
+#0 {main}
+  thrown in /home/thebeardedone/public_html/contact.php on line 84
+[20-Sep-2017 17:58:41 UTC] PHP Fatal error:  Uncaught Error: Class 'ReCaptcha' not found in /home/thebeardedone/public_html/contact.php:84
+Stack trace:
+#0 {main}
+  thrown in /home/thebeardedone/public_html/contact.php on line 84
+[22-Sep-2017 17:27:54 UTC] PHP Fatal error:  Uncaught Error: Class 'ReCaptcha' not found in /home/thebeardedone/public_html/contact.php:84
+Stack trace:
+#0 {main}
+  thrown in /home/thebeardedone/public_html/contact.php on line 84
