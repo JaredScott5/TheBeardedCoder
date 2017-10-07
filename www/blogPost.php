@@ -1,5 +1,4 @@
-<!--TODO
-make this a basic template later on and have a database set up with the post info
+<!--TODO make this a basic template later on and have a database set up with the post info
 stored in it such as title, subtitle, paragraphs (make a limit on these),
 and so forth
 
@@ -32,8 +31,6 @@ Comment them out until you have created the javascript needed
 
 </head>
 
-<!--TODO the images should be 900x300-->
-
 <body>
   <?php
   include_once('navbar.php');
@@ -61,9 +58,6 @@ Comment them out until you have created the javascript needed
 
                 <!-- Preview Image -->
                 <img class="card-img img-fluid rounded" src="img/blog/office-space.jpg" alt="">
-
-            <!--    <img class="img-fluid rounded" src="http://placehold.it/900x300" alt="">
--->
                 <hr>
 
                 <!-- Post Content -->
