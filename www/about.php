@@ -27,7 +27,6 @@
 <?php include_once('navbar.php')
 ?>
 
-<!--TODO make the images down below all 640x420-->
     <div class="container">
 
         <div class="bg-faded p-4 my-4">
