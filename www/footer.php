@@ -1,21 +1,22 @@
 <!--TODO social media icons-->
+<!-- Custom styles for this template -->
 <footer class="bg-faded text-center py-5">
 
   <div class="container">
     <div class="row" id="topFooterLayer" >
     <div class="col-3">
-        <h5><a href="index.php" style="color:black">Home</a></h5>
+        <h5><a href="index.php">Home</a></h5>
       </div>
       <div class="col-3">
-        <h5><a href="about.php" style="color:black">About Us</a></h5>
-      </div>
-
-      <div class="col-3">
-        <h5><a href="blog.php" style="color:black">Blog</a></h5>
+        <h5><a href="about.php">About Us</a></h5>
       </div>
 
       <div class="col-3">
-        <h5><a href="contact.php" style="color:black">Contact Us</a></h5>
+        <h5><a href="blog.php">Blog</a></h5>
+      </div>
+
+      <div class="col-3">
+        <h5><a href="contact.php">Contact Us</a></h5>
       </div>
     </div>
 <hr>
@@ -40,7 +41,7 @@
       </div>
 
       <div class="col-4" id="privacypolicy">
-        Read Our <a href="https://thebeardedcoder.net/privacypolicy">Privacy Policy</a>
+        Read Our <a href="privacypolicy.php">Privacy Policy</a>
       </div>
 
       <div class="col-4" id="pixabay">

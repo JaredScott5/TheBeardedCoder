@@ -5,7 +5,7 @@
  */
 body {
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
-    background: url('img/background.jpg') no-repeat center center fixed;
+    background: url('../img/background.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -17,18 +17,23 @@ footer{
 }
 
 footer .container #topFooterLayer {
+  color: black;
 font-size: 13px;
+}
+
+footer .container #topFooterLayer .col-3 h5 a{
+  color: black;
 }
 
 footer .container #secondFooterLayer{
   font-size: 12px;
 }
 
-footer .container #thirdFooterLayer{
+footer .container #thirdFooterLayer .col-4{
   font-size: 11px;
 }
 
-footer .container #topFooterLayer h5 {
+footer .container #topFooterLayer  {
   text-align: center;
 }
 
