@@ -3,6 +3,9 @@
 
 <head>
   <script src="https://cdn.logrocket.com/LogRocket.min.js"></script>
+
+
+
   <script>
     window.LogRocket && window.LogRocket.init('ylt7fv/thebeardedcoder');
   </script>
