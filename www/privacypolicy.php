@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <script src="https://cdn.logrocket.com/LogRocket.min.js"></script>
+  <script>
+    window.LogRocket && window.LogRocket.init('ylt7fv/thebeardedcoder');
+  </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <title>The Bearded Coder, Inc.</title>
+  <title>The Bearded Coder, Inc.</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
 
-    <!-- Custom styles for this template -->
-    <link href="css/business-casual.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/business-casual.css" rel="stylesheet">
 
 </head>
 
@@ -86,8 +91,8 @@ include_once('navbar.php');
       </p>
 
       <p>
-          We use regular Malware Scanning.
-        </p>
+        We use regular Malware Scanning.
+      </p>
 
       <p>
         Your personal information is contained behind secured networks and is only accessible by a limited number of persons who have special access rights to such systems, and are required to keep the information confidential. In addition, all sensitive/credit
@@ -229,9 +234,9 @@ include_once('navbar.php');
           collect PII from children under 13?</strong>
         </h3>
 
-        <p>
-          No, we do not.
-        </p>
+      <p>
+        No, we do not.
+      </p>
 
       <h3>
         <strong>Fair Information Practices</strong>
