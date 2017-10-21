@@ -2,7 +2,10 @@
 <html lang="en">
 
 <head>
-
+  <script src="https://cdn.logrocket.com/LogRocket.min.js"></script>
+  <script>
+    window.LogRocket && window.LogRocket.init('ylt7fv/thebeardedcoder');
+  </script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
@@ -29,13 +32,13 @@
 
     <!-- Page Content -->
     <div class="container">
-        <div class="row bg-faded p-4 my-4">
-            <div class="col-lg-12 text-center">
-                <h1 class="mt-5">Coming Soon</h1>
-                <p class="lead">Are you excited? I know I am!</p>
+      <div class="row bg-faded p-4 my-4">
+        <div class="col-lg-12 text-center">
+          <h1 class="mt-5">Coming Soon</h1>
+          <p class="lead">Are you excited? I know I am!</p>
 
-            </div>
         </div>
+      </div>
     </div>
 
     <!-- Bootstrap core JavaScript -->
