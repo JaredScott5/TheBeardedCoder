@@ -1,5 +1,6 @@
 <!--TODO social media icons-->
 <!-- Custom styles for this template -->
+<!-- Custom fonts for this template -->
 <footer class="bg-faded text-center py-5">
 
   <div class="container">
