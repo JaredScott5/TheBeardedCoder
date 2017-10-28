@@ -12,6 +12,7 @@
   <meta name="author" content="">
 
   <title>The Bearded Coder, Inc.</title>
+  <link href="css/social-feed/jquery.socialfeed.css" rel="stylesheet" type="text/css">
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -93,6 +94,15 @@ include_once('navbar.php');
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/popper/popper.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <!-- jQuery -->
+  <script src="vendor/social-feed/bower_components/jquery/dist/jquery.min.js"></script>
+
+  <!-- doT.js for rendering templates -->
+  <script src="vendor/social-feed/bower_components/doT/doT.min.js"></script>
+  <!-- Moment.js for showing "time ago" -->
+  <script src="vendor/social-feed/bower_components/moment/min/moment.min.js"></script>
+  <!-- Social-feed js -->
+  <script src="js/jquery.socialfeed.js"></script>
 
 </body>
 
