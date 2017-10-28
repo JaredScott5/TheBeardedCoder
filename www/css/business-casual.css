@@ -14,18 +14,18 @@ body {
 /*Begin footer css*/
 footer{
   overflow: hidden;
-  color: rgba(0,0,0,.7);
 }
 
 footer .container #topFooterLayer {
+  color: black;
 font-size: 13px;
 }
 
 footer .container #topFooterLayer .col-3 h5 a{
-  color: rgba(0,0,0,.7);
+  color: black;
 }
 
-footer .container #secondFooterLayer, p.social-feed-text{
+footer .container #secondFooterLayer{
   font-size: 12px;
 }
 
