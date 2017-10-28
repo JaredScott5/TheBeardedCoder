@@ -18,6 +18,7 @@
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/social-feed/jquery.socialfeed.css" rel="stylesheet" type="text/css">
 
   <!-- Custom fonts for this template -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
@@ -272,7 +273,15 @@ include_once('footer.php');
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/popper/popper.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <!-- jQuery -->
+  <script src="vendor/social-feed/bower_components/jquery/dist/jquery.min.js"></script>
 
+  <!-- doT.js for rendering templates -->
+  <script src="vendor/social-feed/bower_components/doT/doT.min.js"></script>
+  <!-- Moment.js for showing "time ago" -->
+  <script src="vendor/social-feed/bower_components/moment/min/moment.min.js"></script>
+  <!-- Social-feed js -->
+  <script src="js/jquery.socialfeed.js"></script>
 </body>
 
 </html>

@@ -77,8 +77,8 @@
     width:16px;
 }
 .social-feed-element .media-body div{
-    color:#666;
-    line-height: 20px;
+    /**color:#666;
+    line-height: 20px;*/
 }
 .social-feed-element:first-child {
     margin-top: 0;
