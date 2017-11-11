@@ -7,7 +7,10 @@
     <meta name="author" content="">
 
     <title>The Bearded Coder, Inc.</title>
-
+    <link href="css/social-feed/jquery.socialfeed.css" rel="stylesheet" type="text/css">
+    <!-- font-awesome for social network icons -->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css" rel="stylesheet">
+<script src="https://www.w3schools.com/lib/w3.js"></script>
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -21,9 +24,8 @@
 </head>
 
 <body>
-<?php
-include_once('navbar.php');
-?>
+
+<div w3-include-html="navbar.html"></div>
     <div class="container">
 
         <div class="bg-faded p-4 my-4">
@@ -176,15 +178,25 @@ include_once('navbar.php');
 
     </div>
     <!-- /.container -->
-
-<?php
-include_once('footer.php');
-?>
-
+    <?php
+  include_once('footer.php');
+    ?>
+    <script>
+    w3.includeHTML();
+    </script>
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- jQuery -->
+    <script src="vendor/social-feed/bower_components/jquery/dist/jquery.min.js"></script>
+
+    <!-- doT.js for rendering templates -->
+    <script src="vendor/social-feed/bower_components/doT/doT.min.js"></script>
+    <!-- Moment.js for showing "time ago" -->
+    <script src="vendor/social-feed/bower_components/moment/min/moment.min.js"></script>
+    <!-- Social-feed js -->
+    <script src="js/jquery.socialfeed.js"></script>
 
 </body>
 

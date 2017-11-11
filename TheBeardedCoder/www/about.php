@@ -6,13 +6,14 @@
   <script>
     window.LogRocket && window.LogRocket.init('ylt7fv/thebeardedcoder');
   </script>
-
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
 
   <title>The Bearded Coder, Inc.</title>
+  <link href="css/social-feed/jquery.socialfeed.css" rel="stylesheet" type="text/css">
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -28,8 +29,7 @@
 </head>
 
 <body>
-  <?php include_once('navbar.php')
-?>
+  <div w3-include-html="navbar.html"></div>
 
   <div class="container">
 
@@ -134,43 +134,55 @@
 -->
   </div>
   <!-- /.container -->
+  <?php
+  include_once('footer.php');
+  ?>
+    <script>
+      w3.includeHTML();
+    </script>
 
-  <?php  include_once('footer.php');
-?>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- jQuery -->
+    <script src="vendor/social-feed/bower_components/jquery/dist/jquery.min.js"></script>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/popper/popper.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- doT.js for rendering templates -->
+    <script src="vendor/social-feed/bower_components/doT/doT.min.js"></script>
+    <!-- Moment.js for showing "time ago" -->
+    <script src="vendor/social-feed/bower_components/moment/min/moment.min.js"></script>
+    <!-- Social-feed js -->
+    <script src="js/jquery.socialfeed.js"></script>
 
-  <!-- Our custom js file-->
+    <!-- Our custom js file-->
 
-  <script>
-    var items = document.querySelectorAll(".timeline li");
+    <script>
+      var items = document.querySelectorAll(".timeline li");
 
-    // code for the isElementInViewport function
+      // code for the isElementInViewport function
 
-    function isElementInViewport(el) {
-      var rect = el.getBoundingClientRect();
-      return (
-        rect.top >= 0 &&
-        rect.left >= 0 &&
-        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-      );
-    }
+      function isElementInViewport(el) {
+        var rect = el.getBoundingClientRect();
+        return (
+          rect.top >= 0 &&
+          rect.left >= 0 &&
+          rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+          rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
+      }
 
-    function callbackFunc() {
-      for (var i = 0; i < items.length; i++) {
-        if (isElementInViewport(items[i])) {
-          items[i].classList.add("in-view");
+      function callbackFunc() {
+        for (var i = 0; i < items.length; i++) {
+          if (isElementInViewport(items[i])) {
+            items[i].classList.add("in-view");
+          }
         }
       }
-    }
 
-    window.addEventListener("load", callbackFunc);
-    window.addEventListener("scroll", callbackFunc);
-  </script>
+      window.addEventListener("load", callbackFunc);
+      window.addEventListener("scroll", callbackFunc);
+    </script>
 
 </body>
 

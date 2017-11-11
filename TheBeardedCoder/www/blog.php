@@ -12,7 +12,8 @@
   <meta name="author" content="">
 
   <title>The Bearded Coder, Inc.</title>
-
+  <link href="css/social-feed/jquery.socialfeed.css" rel="stylesheet" type="text/css">
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -25,9 +26,7 @@
 </head>
 
 <body>
-  <?php
-include_once('navbar.php');
-?>
+  <div w3-include-html="content.html"></div>
 
   <!-- Page Content -->
   <div class="container">
@@ -62,37 +61,43 @@ include_once('navbar.php');
             <h2 class="card-title">We Are Open For Business</h2>
             <p class="card-text">My goodness, here we are, here we are! After what feels like a lifetime, The Bearded Coder, Inc. is officially open! First of all, thank you for taking time out of your day to visit our humble company blog. It does our hearts good to know
               that out of all of the many articles, videos, and blog posts on the Internet that you decided to give us a read.</p>
-            <a href="blogPost.php" class="btn btn-primary">Read More &rarr;</a>
+            <a href="blogPost.html" class="btn btn-primary">Read More &rarr;</a>
           </div>
           <!-- <div class="card-footer text-muted">
                         Posted on January 1, 2017
                     </div>-->
         </div>
-
         <!-- Pagination -->
         <ul class="pagination justify-content-center mb-4">
           <li class="page-item disabled"><a class="page-link" href="#">&larr; Older</a></li>
           <li class="page-item disabled"><a class="page-link" href="#">Newer &rarr;</a></li>
         </ul>
-
       </div>
-
-
-
     </div>
     <!-- /.row -->
-
   </div>
   <!-- /.container -->
 
   <!-- Footer -->
-  <?php  include_once('footer.php');
+  <?php
+  include_once('footer.php');
   ?>
+    <script>
+      w3.includeHTML();
+    </script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- jQuery -->
+    <script src="vendor/social-feed/bower_components/jquery/dist/jquery.min.js"></script>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/popper/popper.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- doT.js for rendering templates -->
+    <script src="vendor/social-feed/bower_components/doT/doT.min.js"></script>
+    <!-- Moment.js for showing "time ago" -->
+    <script src="vendor/social-feed/bower_components/moment/min/moment.min.js"></script>
+    <!-- Social-feed js -->
+    <script src="js/jquery.socialfeed.js"></script>
 
 </body>
 

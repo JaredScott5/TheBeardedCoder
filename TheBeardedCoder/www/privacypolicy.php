@@ -15,7 +15,8 @@
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+  <link href="css/social-feed/jquery.socialfeed.css" rel="stylesheet" type="text/css">
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
   <!-- Custom fonts for this template -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
@@ -26,9 +27,7 @@
 </head>
 
 <body>
-  <?php
-include_once('navbar.php');
-?>
+  <div w3-include-html="navbar.html"></div>
   <div class="container">
 
     <div class="bg-faded p-4 my-4">
@@ -259,17 +258,26 @@ include_once('navbar.php');
 
     </div>
 
-  </div>
+    <?php
+    include_once('footer.php');
+    ?>
+      <script>
+        w3.includeHTML();
+      </script>
 
-  <?php
-include_once('footer.php');
-?>
+      <!-- Bootstrap core JavaScript -->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/popper/popper.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+      <!-- jQuery -->
+      <script src="vendor/social-feed/bower_components/jquery/dist/jquery.min.js"></script>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/popper/popper.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
+      <!-- doT.js for rendering templates -->
+      <script src="vendor/social-feed/bower_components/doT/doT.min.js"></script>
+      <!-- Moment.js for showing "time ago" -->
+      <script src="vendor/social-feed/bower_components/moment/min/moment.min.js"></script>
+      <!-- Social-feed js -->
+      <script src="js/jquery.socialfeed.js"></script>
 </body>
 
 </html>
